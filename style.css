@@ -1,77 +1,158 @@
-body { 
-    background-color: #f4f1ea;
-    color:#222222;
-    font-family: arial,sans-serif;
-    margin:0;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+body {
+    background-color: #7a0000;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+/* CABEÇALHO */
+
 header {
-    background-color: #6b2d5c;
-    color:white;
-    text-align:center;
-    padding: 30px;
+    background-color: #4a0000;
+    color: white;
+    text-align: center;
+    padding: 35px 20px;
+    border-bottom: 4px solid white;
 }
-h1 {
-    font-size:36px;
-}
-h2 {color:#2c6b0200;
 
+header h1 {
+    font-size: 42px;
+    margin-bottom: 12px;
 }
-p{
-    font-size:18px;
-    line-height: 1.6;
-}
-nav {
-    margin-top: 20px;
 
-}
-nav a { 
-    color:white;
-    text-decoration: none; 
-    background-color: #9b4d83;
-    padding: 10px 15px;
-    border-radius: 8px; 
-    margin:5px;
-    display: inline block;
-
-}
-nav a: hover{
-    ::background-color:#c77dff;
-
-}
-main { 
-    width:80%;
+header p {
+    font-size: 18px;
+    max-width: 700px;
     margin: auto;
+}
 
+/* MENU */
+
+nav {
+    margin-top: 25px;
 }
-section{
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    margin: 5px;
+    border: 2px solid white;
+    border-radius: 8px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+nav a:hover {
     background-color: white;
-    margin:20px 0;
-    padding:20px;
+    color: #4a0000;
+}
+
+/* CONTEÚDO */
+
+main {
+    width: 80%;
+    max-width: 1000px;
+    margin: 30px auto;
+}
+
+section {
+    background-color: #7a0000;
+    color: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border: 2px solid white;
     border-radius: 12px;
 }
+
+h2 {
+    font-size: 30px;
+    margin-bottom: 18px;
+    color: white;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/* IMAGENS */
+
+figure {
+    margin-top: 25px;
+}
+
 img {
-    width:100%;
-    max-width: 600px;
+    width: 100%;
+    max-width: 650px;
     display: block;
-    margin:auto;
+    margin: auto;
+    border: 3px solid white;
     border-radius: 12px;
 }
+
 figcaption {
     text-align: center;
-    font-size:14px;
-    color:#28610700;
-    margin-top: 8px;
+    margin-top: 10px;
+    color: white;
+    font-size: 14px;
 }
-card {
-    background-color: #f3d9fa;
-    padding:15px;
-    margin:15px 0;
-    border-left: 6px solid #6b2d5c;
-    border-radius: 10px
+
+/* CURIOSIDADES */
+
+.card {
+    background-color: #a11212;
+    color: white;
+    padding: 18px;
+    margin: 15px 0;
+    border: 2px solid white;
+    border-radius: 10px;
 }
-card h3{
-    margin-top: 0;
+
+.card h3 {
+    margin-bottom: 10px;
+    color: white;
 }
-footer{
-    background-color: #222222;
+
+/* RODAPÉ */
+
+footer {
+    background-color: #350000;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    border-top: 4px solid white;
+}
+
+footer p {
+    margin: 8px 0;
+}
+
+/* CELULAR */
+
+@media (max-width: 600px) {
+
+    main {
+        width: 92%;
+    }
+
+    header h1 {
+        font-size: 30px;
+    }
+
+    nav a {
+        display: block;
+        margin: 8px 0;
+    }
+
+    section {
+        padding: 18px;
+    }
+
 }
