@@ -11,18 +11,20 @@
     --cor-rodape:#222222;
     
 
-    
+
 }
 body {
-    background-color: #f4f1ea;
-    color: #222222;
+
+    background-color:var(--cor-fundo);
+    color:var(--cor-texto);
     font-family: Arial, sans-serif;
     margin: 0;
 }
 
+
 header {
-    background-color: #7a0000ef;
-    color: white;
+    background-color:var(--cor-principal)
+    color:var(var(--cor-clara);
     text-align: center;
     padding: 30px;
 }
