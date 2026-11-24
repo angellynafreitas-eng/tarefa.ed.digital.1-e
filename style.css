@@ -3,9 +3,9 @@
     --cor-texto:#222222;
     --cor-principal:#940000a1;
     --cor-secundária:#460000b6;
-    --cor-hover:#7a006675;
+    --cor-hover:#c0080875;
     --cor-superficial:white;
-    --cor-card:#2a0542;
+    --cor-card:rgb(90, 0, 0);
     --cor-legenda:#555555;
     --cor-clara:#ffffff;
     --cor-rodape:#ff0000;
@@ -18,7 +18,7 @@
     --cor-texto: #f5f5f5;
     --cor-principal: #d4012f75;
     --cor-superficie: #1e1e1e;
-    --cor-card: #68002b;
+    --cor-card: #b41c1c;
     
 }
 body {
